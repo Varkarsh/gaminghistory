@@ -1,0 +1,122 @@
+/* Display HTML5 structural elements as blocks */
+
+header, section, nav {
+   display: block;
+}
+
+section#bio h2 {
+	border-style: solid;
+	border-width: 2px;
+}
+
+/* Main Section Styles */
+body {
+	background-image:linear-gradient(orange, white);
+	background-position: center;
+	height: 750px;
+	background-repeat: no-repeat;
+}
+section p {
+	text-align: left;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+a {
+	color: rgb(0,0,200);
+	text-decoration: none;
+}
+/* Site Navigation Styles */
+nav:visited {
+	color: rgb(100,0,100);
+}
+/* Header Styles */
+h2.pageTitle {
+	margin: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+h2#pos {
+	position: relative;
+	left: 50px;
+}
+h2#Pos {
+	position: relative;
+	left: 50px;
+}
+/* List Styles */
+nav#tabletitle {
+	border-radius: 25px;
+	border-style: solid;
+	border-color: rgb(0,0,0);
+	border-width: 5px;
+	width: 25%;
+	display: block;
+}
+/*column and form heading styles */
+.columnleft {
+	float: left;
+	width: 66%;
+	column-count: 2;
+	overflow: scroll;
+	height: 202px;
+}
+.columnright {
+	float: right;
+	width: 34%;
+}
+
+/*Flexbox Styling */
+section.flex {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: DodgerBlue;
+	height: 50%
+
+}
+section.flex > div {
+	background-color: #f1f1f1;
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 10px;
+	padding: 20px;
+	flex-direction: row;
+	text-align: center;
+}
+
+/*Table Styles*/
+table, th, td {
+	border: 1px solid black;
+}
+
+/* Footer Styles */
+footer {
+	clear: both;
+}
+footer p {
+	text-align: center;
+}
+footer > p.info {
+	text-align: center;
+}
+
+/* Sectioning Styles */
+section {
+		background-image: url("arcade.png");
+		background-position: center;
+		height: 750px;
+		background-repeat: no-repeat;
+	}
+
+section#mainContent > img {
+	margin-left: 0px;
+	margin-right: 0px;
+	transition: width 2s, height 2s, transform 2s;
+}
+section#mainContent > img:hover {
+	width: 300px;
+    height: 300px;
+	transform: rotate(180deg);
+}
