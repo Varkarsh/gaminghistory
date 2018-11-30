@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
    OC CIS 155 Web Development I
    BoC Baseline Style Sheet for Scenic Byways Site
@@ -87,4 +88,95 @@ section#bio {
 section#bio h2{
 	font-size: 2em;
 	margin: 25px;
+=======
+/*
+   OC CIS 155 Web Development I
+   BoC Baseline Style Sheet for Scenic Byways Site
+
+   Author: Pam Bilodeau / Amelia Garripoli
+   DO NOT MODIFY THIS CODE
+
+   Filename:  sb.css
+*/
+
+/* Display HTML5 structural elements as blocks */
+
+header, section, nav {
+   display: block;
+}
+
+
+/* Body styles */
+
+body {
+	width: 80%;
+    min-width: 900px;
+    max-width: 900px;
+	font-family: Times, Verdana, Geneva, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Site Navigation Styles */
+
+nav#siteNav {
+   float: left;
+   width: 20%;
+   margin-right: 40px;
+   padding-top: 10%;
+
+}
+
+nav#siteNav ul {
+   list-style-type: disc; 
+   padding-left: 0px; 
+   margin: 0px; 
+   font-size: 1em;
+}
+
+nav#siteNav a {
+   text-decoration: none; 
+   color: rgb(0,0,154);
+}
+
+nav#siteNav a:hover {
+   text-decoration: overline underline;
+}
+
+nav#siteNav li.newTopic {
+   margin: 10px 0px 10px -20px;
+}
+
+
+
+/* Header Styles */
+
+header {
+   float: left;
+   width: 75%;
+}
+
+
+/* Main Section Styles */
+
+
+
+section#main {
+   float: left;
+   width: 75%;
+}
+
+section#main h2 {
+   font-size: 1.9em;
+   margin: 25px;
+}
+section#bio {
+	float: left;
+	width: 75%;
+}
+section#bio h2{
+	font-size: 2em;
+	margin: 25px;
+>>>>>>> 9eff547d8ca4ef4459edcc69535ec2ee3389aece
 }
